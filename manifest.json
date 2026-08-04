@@ -105,15 +105,14 @@
   "count": 100,
   "lastUpdated": "2026-08-04",
   "schema": {
-    "monthlyPath": "stock/prices/<YYYY_MM>/<SYMBOL>.json",
-    "latestPath": "stock/prices/latest/<SYMBOL>.json",
-    "bar": {
-      "date": "YYYY-MM-DD",
-      "open": "float",
-      "high": "float",
-      "low": "float",
-      "close": "float",
-      "volume": "float"
-    }
+    "dailyPath": "stock/prices/<SYMBOL>/daily.json.gz",
+    "historyPath": "stock/prices/<SYMBOL>/history.json.gz",
+    "encoding": "gzip-compressed JSON array of [date, close, volume] tuples, fetch + gunzip client-side",
+    "bar": [
+      "date (YYYY-MM-DD)",
+      "close (float)",
+      "volume (float)"
+    ],
+    "note": "daily holds the current calendar month only, rewritten every publish run. history is rolled up when a month closes out (not daily) -- always merge daily on top of history and prefer daily's rows on an overlapping date."
   }
 }
