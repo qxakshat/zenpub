@@ -1,0 +1,20 @@
+{
+  "lastUpdated": "2026-08-17T19:05:13Z",
+  "count": 180,
+  "schema": {
+    "path": "stock/news/news.json",
+    "encoding": "plain JSON, one combined file for every source (fetch once client-side, filter by holding symbol)",
+    "shape": "{asOf, items: [item, ...]}, items sorted newest first",
+    "refresh": "hourly, every day (see zenserve's scripts/cron_publish_news.sh) -- merged into what's already on disk, not a full replace; see this module's docstring",
+    "item": {
+      "stocks": "array of NSE trading symbols this item is actually about (regex-matched on symbol + company name in title/summary); empty array for general market news not tied to a specific constituent",
+      "time": "ISO 8601 UTC (trailing 'Z'), the source's own published time",
+      "source": "publication name, e.g. 'Economic Times'",
+      "title": "string",
+      "summary": "string, HTML stripped",
+      "imgLink": "string or null",
+      "sourceLink": "string, canonical article URL -- the de-dupe key across runs"
+    },
+    "note": "Trimmed to the last 4 days and at most 1500 items on every publish run. Universe tagged is the current Nifty 100 (see src/eod/universe.py's fetch_nifty100_constituents); a holding outside that index never gets a 'stocks' match here, though the item itself is still kept (empty 'stocks' array) if a source published it. A separate, never-trimmed archive of every item ever seen lives at internal/news_archive/news.jsonl -- not fetched by the app, not part of this schema."
+  }
+}
