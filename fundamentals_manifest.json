@@ -103,7 +103,7 @@
     "ZYDUSLIFE"
   ],
   "count": 100,
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-17",
   "schema": {
     "path": "stock/fundamentals/fundamentals.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
@@ -124,6 +124,11 @@
       "fiftyTwoWeekLow": "INR, float or null",
       "sector": "string or null",
       "industry": "string or null",
+      "valuePercentile": "0-100 within this run's batch, 100=cheapest priceToBook, float or null",
+      "profitabilityPercentile": "0-100, 100=highest returnOnEquity, float or null",
+      "marginsPercentile": "0-100, 100=highest profitMargin, float or null",
+      "safetyPercentile": "0-100, 100=lowest debtToEquity, float or null",
+      "incomePercentile": "0-100, 100=highest dividendYield, float or null",
       "asOf": "ISO date this symbol's own fields were last refreshed (may lag the file's top-level asOf)"
     },
     "note": "A symbol yfinance couldn't resolve that run keeps its previous entry (and that entry's own asOf) rather than being dropped or overwritten with nulls."
