@@ -1,0 +1,23 @@
+{
+  "lastUpdated": "2026-08-18",
+  "count": 86,
+  "schema": {
+    "path": "bonds/opportunities.json",
+    "encoding": "plain JSON, one combined file (fetch once client-side)",
+    "shape": "{asOf, bonds: [bond, ...]}",
+    "source": "NSE 'Bonds Traded in Capital Market' (api/liveBonds-traded-on-cm), refreshed daily after market close",
+    "filter": "credit rating A- or better; estimated yield to maturity > 10% and <= 30% (see bond_sources.py for why the upper bound exists)",
+    "bond": {
+      "isin": "string",
+      "symbol": "NSE trading symbol for this bond series",
+      "creditRatingTier": "AAA | AA | A (modifiers like + / - collapsed to the tier)",
+      "creditRatingRaw": "the raw NSE rating string, possibly multiple agencies",
+      "ratingAgency": "string, possibly comma-separated",
+      "couponRatePercent": "annual coupon rate, float",
+      "price": "last traded/close price, float",
+      "faceValue": "float",
+      "maturityDate": "ISO date",
+      "estimatedYieldPercent": "APPROXIMATE yield to maturity computed from price/coupon/face value/maturity \u2014 not NSE's own bYield field, which this feed leaves empty. Not a precise IRR; see bond_sources.py's estimate_ytm_percent for the formula."
+    }
+  }
+}
