@@ -103,7 +103,7 @@
     "ZYDUSLIFE"
   ],
   "count": 100,
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-18",
   "schema": {
     "path": "stock/events/events.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
@@ -115,6 +115,6 @@
       "recordDate": "ISO date or null (corporate actions only)",
       "description": "string or null (board meetings only)"
     },
-    "note": "Each symbol's list is trimmed to the last 180 days plus any future-dated events on every publish run; a symbol with nothing in that window still has a key with an empty array."
+    "note": "Each symbol's list is trimmed to the last 10 days plus any future-dated events on every publish run; a symbol with nothing in that window still has a key with an empty array. A separate, never-trimmed archive of every event ever seen lives at internal/events_archive/events.jsonl \u2014 not fetched by the app, not part of this schema."
   }
 }
