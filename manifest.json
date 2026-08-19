@@ -503,7 +503,7 @@
     "ZYDUSWELL"
   ],
   "count": 500,
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "schema": {
     "dailyPath": "stock/prices/<SYMBOL>/daily.json.gz",
     "historyPath": "stock/prices/<SYMBOL>/history.json.gz",
