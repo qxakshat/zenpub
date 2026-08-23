@@ -30,4 +30,4 @@ We'll update the "last updated" date above whenever this policy changes.
 
 ## Contact
 
-Pivotpeak LLP, Gurugram, Haryana, India — **zfolio.co.in@gmail.com**
+Pivotpeak LLP, India — **zfolio.co.in@gmail.com**

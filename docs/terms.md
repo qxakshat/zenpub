@@ -60,4 +60,4 @@ These Terms are governed by the laws of India. Any dispute arising out of or rel
 
 ## Contact
 
-Pivotpeak LLP, Gurugram, Haryana, India — **zfolio.co.in@gmail.com**
+Pivotpeak LLP, India — **zfolio.co.in@gmail.com**
