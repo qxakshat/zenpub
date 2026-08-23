@@ -1,0 +1,316 @@
+{
+  "lastUpdated": "2026-08-23",
+  "modules": [
+    {
+      "id": "0",
+      "title": "Portfolio Basics",
+      "icon": "briefcase",
+      "subtitle": "Foundations for every investor",
+      "slug": "portfolio-basics",
+      "chapters": [
+        {
+          "name": "What is a Portfolio?",
+          "duration": "6 min",
+          "slug": "what-is-a-portfolio",
+          "file": "what-is-a-portfolio.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Asset Classes Explained",
+          "duration": "10 min",
+          "slug": "asset-classes-explained",
+          "file": "asset-classes-explained.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Diversification Strategy",
+          "duration": "11 min",
+          "slug": "diversification-strategy",
+          "file": "diversification-strategy.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Investment Vehicles",
+      "icon": "bank",
+      "subtitle": "What most Indian investors actually buy",
+      "slug": "investment-vehicles",
+      "chapters": [
+        {
+          "name": "Mutual Funds & SIPs",
+          "duration": "9 min",
+          "slug": "mutual-funds-sips",
+          "file": "mutual-funds-sips.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Bonds & Fixed Income",
+          "duration": "10 min",
+          "slug": "bonds-fixed-income",
+          "file": "bonds-fixed-income.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Gold: Physical, ETF, and SGB",
+          "duration": "8 min",
+          "slug": "gold-physical-etf-sgb",
+          "file": "gold-physical-etf-sgb.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Modern Portfolio Theory",
+      "icon": "chart-line",
+      "subtitle": "The math behind the Optimize tab",
+      "slug": "modern-portfolio-theory",
+      "chapters": [
+        {
+          "name": "Efficient Frontier",
+          "duration": "12 min",
+          "slug": "efficient-frontier",
+          "file": "efficient-frontier.json",
+          "hasQuiz": true,
+          "chartId": "efficientFrontier",
+          "chartHeading": "Mean-Variance Optimization: The Method Behind the Curve"
+        },
+        {
+          "name": "CAPM & Factor Investing",
+          "duration": "11 min",
+          "slug": "capm-factor-investing",
+          "file": "capm-factor-investing.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Risk vs Return",
+          "duration": "11 min",
+          "slug": "risk-vs-return",
+          "file": "risk-vs-return.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Correlation Matrix",
+          "duration": "11 min",
+          "slug": "correlation-matrix",
+          "file": "correlation-matrix.json",
+          "hasQuiz": true,
+          "chartId": "correlationMatrix",
+          "chartHeading": "A Worked Correlation Matrix Across Asset Classes"
+        },
+        {
+          "name": "Risk Parity & HRP",
+          "duration": "12 min",
+          "slug": "risk-parity-hrp",
+          "file": "risk-parity-hrp.json",
+          "hasQuiz": true,
+          "chartId": "riskParity",
+          "chartHeading": "Why \"Equal Rupees\" Isn't \"Equal Risk\""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Risk Management",
+      "icon": "shield",
+      "subtitle": "Protect what you have built",
+      "slug": "risk-management",
+      "chapters": [
+        {
+          "name": "Understanding Risk Metrics",
+          "duration": "10 min",
+          "slug": "understanding-risk-metrics",
+          "file": "understanding-risk-metrics.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Hedging Techniques",
+          "duration": "9 min",
+          "slug": "hedging-techniques",
+          "file": "hedging-techniques.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Stop-Loss Orders",
+          "duration": "7 min",
+          "slug": "stop-loss-orders",
+          "file": "stop-loss-orders.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Investor Psychology & Behavioral Biases",
+          "duration": "9 min",
+          "slug": "investor-psychology-behavioral-biases",
+          "file": "investor-psychology-behavioral-biases.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Beat the Index",
+      "icon": "trending-up",
+      "subtitle": "Why a simple Nifty 50 approach may not be enough — and how this app tries to do better",
+      "slug": "beat-the-index",
+      "chapters": [
+        {
+          "name": "What are Index Funds?",
+          "duration": "8 min",
+          "slug": "what-are-index-funds",
+          "file": "what-are-index-funds.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Nifty 50 vs Sensex",
+          "duration": "7 min",
+          "slug": "nifty-50-vs-sensex",
+          "file": "nifty-50-vs-sensex.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Passive vs Active Investing",
+          "duration": "10 min",
+          "slug": "passive-vs-active-investing",
+          "file": "passive-vs-active-investing.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "How This App Beats a Simple Index Fund",
+          "duration": "11 min",
+          "slug": "how-this-app-beats-a-simple-index-fund",
+          "file": "how-this-app-beats-a-simple-index-fund.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Asset Allocation",
+      "icon": "chart-pie",
+      "subtitle": "Build a resilient portfolio",
+      "slug": "asset-allocation",
+      "chapters": [
+        {
+          "name": "60-30-10 Rule",
+          "duration": "10 min",
+          "slug": "60-30-10-rule",
+          "file": "60-30-10-rule.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Age-Based Allocation",
+          "duration": "8 min",
+          "slug": "age-based-allocation",
+          "file": "age-based-allocation.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Rebalancing Strategies",
+          "duration": "11 min",
+          "slug": "rebalancing-strategies",
+          "file": "rebalancing-strategies.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Retirement & Goal Planning",
+          "duration": "9 min",
+          "slug": "retirement-goal-planning",
+          "file": "retirement-goal-planning.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Stock Analysis",
+      "icon": "magnify",
+      "subtitle": "Read a company like a pro",
+      "slug": "stock-analysis",
+      "chapters": [
+        {
+          "name": "Fundamental Analysis",
+          "duration": "13 min",
+          "slug": "fundamental-analysis",
+          "file": "fundamental-analysis.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Reading Financial Statements",
+          "duration": "14 min",
+          "slug": "reading-financial-statements",
+          "file": "reading-financial-statements.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Technical Analysis Basics",
+          "duration": "11 min",
+          "slug": "technical-analysis-basics",
+          "file": "technical-analysis-basics.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Tax Optimization",
+      "icon": "calculator",
+      "subtitle": "Keep more of what you earn",
+      "slug": "tax-optimization",
+      "chapters": [
+        {
+          "name": "Capital Gains Tax",
+          "duration": "8 min",
+          "slug": "capital-gains-tax",
+          "file": "capital-gains-tax.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Tax-Loss Harvesting",
+          "duration": "9 min",
+          "slug": "tax-loss-harvesting",
+          "file": "tax-loss-harvesting.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "ELSS Funds",
+          "duration": "7 min",
+          "slug": "elss-funds",
+          "file": "elss-funds.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Advanced Strategies",
+      "icon": "lightning-bolt",
+      "subtitle": "Beyond the basics",
+      "slug": "advanced-strategies",
+      "chapters": [
+        {
+          "name": "Options Trading Basics",
+          "duration": "12 min",
+          "slug": "options-trading-basics",
+          "file": "options-trading-basics.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Momentum Investing",
+          "duration": "11 min",
+          "slug": "momentum-investing",
+          "file": "momentum-investing.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Market Cycles",
+          "duration": "10 min",
+          "slug": "market-cycles",
+          "file": "market-cycles.json",
+          "hasQuiz": true
+        }
+      ]
+    }
+  ]
+}

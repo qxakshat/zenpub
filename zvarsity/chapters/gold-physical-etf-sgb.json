@@ -1,0 +1,60 @@
+{
+  "content": "# Zvarsity: Investment Vehicles - Gold: Physical, ETF, and SGB\n\n**Duration:** 8 minutes | **Level:** Beginner\n\n## Why Gold Still Matters\n\nGold has appeared in almost every earlier chapter of this course as the asset that \"zigs when equities zag\" — the **Diversification Strategy**, **Correlation Matrix**, and **Hedging Techniques** lessons all leaned on it numerically as a crisis-period offset. What none of them covered is the practical question that actually matters once you decide to act on that logic: **which of the three very different ways to hold gold in India should you actually use?** They are not interchangeable, and the differences show up in cost, liquidity, and tax.\n\n---\n\n## Physical Gold\n\nThe traditional route — jewellery, coins, or bars — and the one with the most hidden cost layered on top of the gold price itself:\n\n- **Making charges** — for jewellery specifically, typically anywhere from roughly 3% to 25% of the gold value depending on design complexity, a cost you pay going in and rarely fully recover coming out (a jeweller buying it back generally won't pay for the craftsmanship again). Coins and bars carry much lower making charges, often just a few percent, since there's no design work involved.\n- **Purity risk** — look for **BIS hallmarking**, which certifies purity (typically 22K or 24K); unhallmarked gold carries real risk of being overstated on purity.\n- **GST** — a 3% Goods and Services Tax applies to the value of gold purchased, on top of the metal price and any making charges.\n- **Storage and insurance** — physical gold sitting at home carries real theft/loss risk, and a bank locker or insured storage is an ongoing cost most people don't factor in when comparing gold to a paper investment.\n- **Liquidity** — selling requires physically finding a buyer and, in practice, often accepting a below-market price plus deductions the buyer applies.\n\nNone of this makes physical gold a bad choice — cultural and gifting reasons often matter more than pure investment logic here, and that's a legitimate reason on its own. But as a pure \"10% gold allocation\" investment decision, physical gold is the most expensive and least liquid of the three routes.\n\n---\n\n## Gold ETFs\n\nA **Gold Exchange-Traded Fund** is a mutual fund (see the **Mutual Funds & SIPs** lesson) that holds physical gold in a vault on investors' behalf and trades on the stock exchange like a share, with its price tracking the gold price closely. Buying one skips making charges and purity questions entirely — you're buying a claim on vault-stored, certified gold, priced continuously during market hours rather than once a day.\n\nThe costs are different, not absent: an annual **expense ratio** (commonly under 1% for gold ETFs, much lower than jewellery making charges), a demat account to hold it in, and ordinary brokerage on buying/selling. In exchange, liquidity is close to that of a stock — sellable any trading day at the quoted price, no jeweller negotiation involved.\n\n---\n\n## Sovereign Gold Bonds (SGB)\n\nThe one gold instrument that isn't really \"gold\" in the physical sense at all — an **SGB is a government bond denominated in grams of gold**, issued by the RBI on behalf of the Government of India. It tracks the gold price for capital appreciation *and* pays a fixed **2.5% annual interest** (paid semi-annually) on the initial investment amount — interest no physical gold or Gold ETF pays, since neither is a bond.\n\nThe structural details that make SGBs genuinely distinct:\n\n- **Tenor:** 8 years, with an exit window available from the 5th year onward on interest payment dates.\n- **Tax treatment at maturity:** capital gains on an SGB redeemed at maturity (the full 8-year term) are **exempt from capital gains tax** — a real, meaningful tax advantage neither physical gold nor Gold ETFs offer. The 2.5% annual interest, however, is taxable as regular income each year, regardless of whether the bond is held to maturity.\n- **Selling before maturity:** SGBs can be sold early on the stock exchange (where they're listed) or redeemed at the RBI exit window from year 5 — but capital gains from an early sale do **not** get the maturity tax exemption, and are taxed under the ordinary capital gains rules.\n- **No making charges, no storage risk** — held in demat form or as a physical bond certificate from the RBI, not as metal.\n\nThe trade-off for that better tax treatment is liquidity: SGBs are only issued in periodic government tranches (not available to buy on demand every day the way a Gold ETF is), and the secondary-market trading volume for existing SGBs on the exchange is thinner than a large Gold ETF's.\n\n---\n\n## Comparing the Three\n\n| | Physical Gold | Gold ETF | SGB |\n|---|---|---|---|\n| **Extra cost vs. spot gold price** | Making charges (up to ~25% for jewellery) + 3% GST | Expense ratio (typically <1%/year) | None beyond ordinary brokerage, if bought on exchange |\n| **Pays interest?** | No | No | Yes — 2.5% p.a., taxable annually |\n| **Liquidity** | Lowest — physical buyer needed | High — tradeable any market day | Moderate — exchange-listed, thinner volume |\n| **Tax if held to maturity/long-term** | Capital gains tax applies | Capital gains tax applies | **Exempt, if held the full 8-year tenor** |\n| **Storage risk** | Real — theft/loss | None (held by the fund) | None (demat/RBI-held) |\n| **Available on demand?** | Yes, anytime | Yes, any trading day | No — only during periodic government issue windows |\n\nNone of the three is unconditionally \"best\" — a Gold ETF suits wanting liquid, low-cost, on-demand exposure; an SGB suits a long-term holder willing to commit for years in exchange for the interest payment and the maturity tax exemption; physical gold suits a need for the metal itself, cultural or otherwise, more than a need for the cleanest possible investment vehicle.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Making Charges** | The craftsmanship cost added on top of gold value for jewellery, rarely recovered on resale |\n| **BIS Hallmarking** | India's official gold purity certification |\n| **Gold ETF** | A fund holding physical gold, traded on the stock exchange like a share |\n| **Sovereign Gold Bond (SGB)** | An RBI-issued government bond denominated in grams of gold, paying 2.5% annual interest |\n| **Tenor** | The fixed term of a bond — 8 years for an SGB, with an exit window from year 5 |\n\n---\n\n## Takeaway\n\n✅ Physical gold, Gold ETFs, and SGBs all track the same underlying gold price, but differ meaningfully in cost, liquidity, and tax — they are not interchangeable ways of getting \"10% gold.\"\n✅ Physical gold carries making charges, GST, storage risk, and the lowest liquidity of the three.\n✅ Gold ETFs skip making charges and purity questions, trade like a stock, and charge a low annual expense ratio instead.\n✅ SGBs are the only one of the three that pays interest (2.5% p.a.) and the only one where capital gains are tax-exempt — but only if held to the full 8-year maturity, and only available during periodic issue windows, not on demand.\n\n**Next module:** \"Modern Portfolio Theory\" — starting with \"Efficient Frontier,\" now that Portfolio Basics and the vehicles that go into a portfolio are both covered, on how to actually combine them mathematically.\n",
+  "quiz": [
+    {
+      "question": "Why can making charges on physical gold jewellery be a costly way to hold gold as an investment?",
+      "options": [
+        "They are refunded when you sell",
+        "They are a craftsmanship cost added on top of the gold value that is rarely recovered on resale",
+        "They apply only to gold coins, not jewellery",
+        "They replace the GST on gold"
+      ],
+      "correctIndex": 1,
+      "explanation": "Making charges pay for design/craftsmanship, not the gold itself — a buyer or jeweller repurchasing the piece generally won't pay again for that craftsmanship, so the cost is largely sunk."
+    },
+    {
+      "question": "What ongoing cost does a Gold ETF charge instead of making charges?",
+      "options": [
+        "A fixed annual storage fee only",
+        "An expense ratio (typically under 1% per year)",
+        "A one-time purity certification fee",
+        "GST of 3% every year"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Gold ETF is a mutual fund holding physical gold on investors' behalf, and like any fund it charges an ongoing annual expense ratio rather than one-time making charges."
+    },
+    {
+      "question": "What makes a Sovereign Gold Bond (SGB) structurally different from both physical gold and a Gold ETF?",
+      "options": [
+        "It's the only one that tracks the gold price",
+        "It pays a fixed 2.5% annual interest on top of tracking the gold price, and offers a capital-gains tax exemption if held to maturity",
+        "It's the only one available to buy on demand every day",
+        "It has no fixed term"
+      ],
+      "correctIndex": 1,
+      "explanation": "SGBs are government bonds denominated in grams of gold — they pay 2.5% annual interest (which neither physical gold nor a Gold ETF does) and offer a capital-gains tax exemption if held for the full 8-year tenor."
+    },
+    {
+      "question": "An investor sells their SGB on the stock exchange after 3 years, before the 8-year maturity. What happens to the capital-gains tax exemption?",
+      "options": [
+        "It still applies, since SGBs are always tax-exempt",
+        "It does not apply — the maturity exemption only covers gains realized by holding to the full 8-year term",
+        "It applies only if sold at a loss",
+        "SGBs cannot be sold before maturity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The capital-gains tax exemption on an SGB is conditional on holding to full maturity (8 years). An early sale on the exchange (or the year-5+ RBI exit window) does not carry that same tax exemption — ordinary capital gains rules apply instead."
+    },
+    {
+      "question": "Which gold-holding method has the lowest liquidity, per this lesson?",
+      "options": [
+        "Gold ETF",
+        "Sovereign Gold Bond",
+        "Physical gold",
+        "They are all equally liquid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Physical gold requires finding a physical buyer and often accepting deductions or a below-market price — the lowest liquidity of the three, compared to a Gold ETF's stock-exchange liquidity or an SGB's (thinner but still exchange-listed) liquidity."
+    }
+  ]
+}

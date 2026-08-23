@@ -1,0 +1,60 @@
+{
+  "content": "# Zvarsity: Investment Vehicles - Bonds & Fixed Income\n\n**Duration:** 10 minutes | **Level:** Beginner-Intermediate\n\n## What Is a Bond?\n\nEvery earlier lesson in this course that mentions \"the debt bucket\" or \"the stability anchor\" has been treating bonds as a black box — something that just sits there, quieter than equity. This lesson opens that box.\n\nA bond is a loan, structured as a tradeable security. When you buy a bond, you're lending money — to a company, a bank, or the government — in exchange for a defined promise:\n\n- **Face Value** (also called Par Value) — the amount you'll be repaid when the bond matures, typically ₹1,000 or ₹1,00,000 per unit in India.\n- **Coupon Rate** — the fixed annual interest rate paid on the face value, usually in two half-yearly installments.\n- **Maturity Date** — the date the face value is repaid in full and the bond ends.\n\n**Worked example:** A ₹1,000 face-value bond with a 7% coupon pays ₹70 a year (typically ₹35 every six months) until it matures, at which point you also get the ₹1,000 face value back. Hold it to maturity and never look at its market price in between, and the outcome is entirely predictable — which is exactly why bonds anchor a portfolio the way equity can't.\n\n---\n\n## Yield to Maturity — Why a Bond's \"Real\" Return Isn't Just the Coupon Rate\n\nHere's the part the earlier lessons skipped: **bonds trade in the secondary market before maturity, at prices that move away from face value** — and once that happens, the coupon rate alone no longer tells you what you'd actually earn by buying at today's price and holding to maturity. That number is the **Yield to Maturity (YTM)**: the total annualized return an investor gets if they buy at the current market price and hold until the bond matures, accounting for both the coupon payments and the gain or loss between the purchase price and the face value repaid at the end.\n\n> Approximate YTM ≈ [Coupon + (Face Value − Price) ÷ Years to Maturity] ÷ [(Face Value + Price) ÷ 2]\n\n**Worked example:** The same ₹1,000 face-value, 7% coupon bond, 5 years from maturity, but now trading at ₹950 in the market (below face value):\n\n> YTM ≈ [₹70 + (₹1,000 − ₹950) ÷ 5] ÷ [(₹1,000 + ₹950) ÷ 2] = [70 + 10] ÷ 975 ≈ **8.21%**\n\nBuy it at a discount to face value, and YTM rises above the coupon rate — you're not just collecting ₹70 a year, you're also picking up ₹50 of guaranteed appreciation to face value at maturity. Flip it around: the same bond trading at ₹1,050 (a premium) works out to a YTM of about **5.85%** — paying more than face value up front eats into the return the coupon alone would suggest. This is the single most important mechanical fact about bonds: **bond price and yield move in opposite directions.** When a bond's price falls, its yield rises, and vice versa — they are two ways of describing the exact same trade.\n\n---\n\n## Interest Rate Risk and Duration\n\nBond prices move for a lot of reasons, but the dominant one is the level of interest rates in the broader economy. When prevailing rates rise, newly issued bonds offer higher coupons — making existing, lower-coupon bonds less attractive at their old price, so their market price falls to compensate (raising their yield to match). When rates fall, the reverse happens: existing higher-coupon bonds become more attractive, and their price rises.\n\n**Duration** is what measures how sensitive a bond's price is to a change in interest rates — roughly, the number of years it takes to recoup the bond's price through its cash flows, weighted by size and timing. The practical shortcut: a bond with a duration of 4.5 years will fall in price by roughly **4.5% for every 1 percentage point rise** in prevailing interest rates (and rise by roughly the same for a 1-point fall). Longer-maturity bonds generally carry longer duration and are therefore more sensitive to rate moves; shorter-maturity bonds carry shorter duration and are comparatively insulated.\n\nThis is why \"bonds are safe\" is an incomplete statement — a bond held to maturity has a predictable outcome (barring default, covered next), but a bond's *market price* along the way can move meaningfully, especially for longer-duration holdings, purely because interest rates in the wider economy shifted.\n\n---\n\n## Credit Risk and Ratings\n\nThe other half of a bond's risk is simpler to state: **will the borrower actually pay you back?** This is credit risk, and in India it's summarized by ratings from agencies like CRISIL, ICRA, and CARE, on a scale that (simplified) runs:\n\n| Rating tier | What it signals |\n|---|---|\n| **AAA** | Highest safety — the issuer's ability to pay is considered very strong |\n| **AA** | High safety, marginally more risk than AAA |\n| **A** | Adequate safety, more sensitive to adverse conditions than AA |\n| **BBB and below** | Moderate to weak safety — meaningfully higher default risk |\n\nGovernment bonds (**G-Secs**) carry no formal credit rating because sovereign default risk in local-currency debt is treated as effectively negligible — they're the risk-free benchmark the **Risk vs Return** and **CAPM & Factor Investing** lessons both use as Rf. Everything else — corporate bonds, bank bonds, NBFC bonds — carries real, ratable credit risk, and lower-rated bonds compensate for that risk with a higher coupon and yield. A bond paying a conspicuously higher yield than its peers is, more often than not, telling you something real about its credit risk, not handing you free money.\n\n---\n\n## Debt Fund Types, Briefly\n\nMost retail investors hold bonds indirectly, through debt mutual funds (see the **Mutual Funds & SIPs** lesson for how funds work generally) rather than buying individual bonds. A few common categories:\n\n| Fund type | What it holds | Typical use |\n|---|---|---|\n| **Liquid Funds** | Very short-maturity money-market instruments (days to ~91 days) | Parking cash short-term, better than a savings account, low duration risk |\n| **Short-Duration Funds** | Bonds maturing in roughly 1–3 years | Moderate duration risk, better yield than liquid funds |\n| **Gilt Funds** | Only government securities | Zero credit risk, but full interest-rate/duration risk |\n| **Credit-Risk Funds** | Lower-rated corporate bonds for a higher yield | Higher yield in exchange for real, non-trivial credit risk |\n\nThe choice between them is really a choice about which of the two risks above — duration or credit — an investor is willing to take on, and how much of it.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Face Value (Par Value)** | The amount repaid to a bondholder at maturity |\n| **Coupon Rate** | The fixed annual interest rate a bond pays on its face value |\n| **Yield to Maturity (YTM)** | The total annualized return from buying at the current market price and holding to maturity |\n| **Duration** | A measure of how sensitive a bond's price is to a change in interest rates |\n| **Credit Rating** | An agency's assessment (e.g. CRISIL AAA/AA/A) of an issuer's ability to repay |\n| **G-Sec** | A Government of India security — the risk-free benchmark used throughout this course |\n\n---\n\n## Takeaway\n\n✅ A bond is a loan with a fixed Face Value, Coupon Rate, and Maturity Date — predictable if held to maturity, but not if traded before then.\n✅ Yield to Maturity accounts for both the coupon and the gap between purchase price and face value — buying below face value pushes YTM above the coupon rate, buying above it pulls YTM below.\n✅ Bond price and yield always move in opposite directions — this is the single most important mechanical fact in this lesson.\n✅ Duration measures interest-rate sensitivity: a bond with duration 4.5 loses roughly 4.5% in price for every 1 percentage point rise in rates.\n✅ Credit ratings (CRISIL/ICRA/CARE AAA down to below-BBB) summarize default risk — a conspicuously higher yield than peers usually reflects real credit risk, not a free lunch.\n✅ Most retail exposure to bonds runs through debt mutual funds — liquid, short-duration, gilt, and credit-risk funds trade off duration risk and credit risk differently.\n\n**Next lesson:** \"Gold: Physical, ETF, and SGB\" — the third major asset class this course has referenced constantly and explained mechanically the least, until now.\n",
+  "quiz": [
+    {
+      "question": "A bond pays a 7% coupon on a ₹1,000 face value. How much interest does it pay per year?",
+      "options": [
+        "₹7",
+        "₹70",
+        "₹700",
+        "It depends on the market price"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coupon payment = coupon rate × face value = 7% × ₹1,000 = ₹70 per year, regardless of what the bond currently trades for in the market."
+    },
+    {
+      "question": "A bond's market price falls below its face value. What happens to its Yield to Maturity?",
+      "options": [
+        "YTM falls below the coupon rate",
+        "YTM rises above the coupon rate",
+        "YTM stays exactly equal to the coupon rate",
+        "YTM becomes negative"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buying below face value means the coupon payments plus the guaranteed gain up to face value at maturity combine into a return higher than the coupon rate alone — bond price and yield move in opposite directions."
+    },
+    {
+      "question": "A bond has a duration of 4.5 years. If prevailing interest rates rise by 1 percentage point, what happens to the bond's price, approximately?",
+      "options": [
+        "Rises by about 4.5%",
+        "Falls by about 4.5%",
+        "Stays unchanged, since the coupon is fixed",
+        "Falls by exactly 1%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duration approximates price sensitivity to interest rates: a bond with duration 4.5 loses roughly 4.5% in price for each 1 percentage point rise in rates (and gains roughly the same for a 1-point fall)."
+    },
+    {
+      "question": "Why do Government of India securities (G-Secs) carry no formal credit rating?",
+      "options": [
+        "They are too risky to rate",
+        "Sovereign default risk in local-currency debt is treated as effectively negligible, so they serve as the risk-free benchmark",
+        "Only equities are rated in India",
+        "G-Secs are not tradeable"
+      ],
+      "correctIndex": 1,
+      "explanation": "G-Secs are treated as the risk-free asset (the Rf used throughout this course's Risk vs Return and CAPM lessons) precisely because sovereign default risk on local-currency government debt is considered negligible."
+    },
+    {
+      "question": "A debt fund holds only lower-rated corporate bonds in exchange for a higher yield. Which fund type is this describing?",
+      "options": [
+        "Liquid Fund",
+        "Gilt Fund",
+        "Credit-Risk Fund",
+        "Index Fund"
+      ],
+      "correctIndex": 2,
+      "explanation": "Credit-Risk Funds specifically hold lower-rated corporate bonds to capture a higher yield, taking on real credit risk in exchange — distinct from Gilt Funds (government-only, zero credit risk) or Liquid Funds (very short-term, low duration risk)."
+    }
+  ]
+}
