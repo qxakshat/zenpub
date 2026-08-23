@@ -54,4 +54,4 @@ We'll update the "last updated" date above whenever this policy changes. Materia
 
 ## Contact
 
-Pivotpeak LLP, Gurugram, Haryana, India — **support@zfolio.co.in**
+Pivotpeak LLP, Gurugram, Haryana, India — **zfolio.co.in@gmail.com**

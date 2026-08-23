@@ -21,7 +21,7 @@ This policy sets out what you may not do when using Zfolio. It applies alongside
 
 ## Reporting a violation
 
-If you believe someone is violating this policy, email **support@zfolio.co.in**.
+If you believe someone is violating this policy, email **zfolio.co.in@gmail.com**.
 
 ## Enforcement
 

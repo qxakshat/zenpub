@@ -28,7 +28,7 @@ Zfolio's discounted first-payment pricing and any free months credited to your a
 
 ## Billing errors
 
-The no-refund policy above covers subscription payments for service Zfolio actually provided. It does not cover a payment that was never supposed to happen at all — a duplicate charge, a charge for the wrong amount, or a charge that went through after you had already cancelled. If one of those happens, contact us at **support@zfolio.co.in** within 7 days with your payment reference, and we will correct the billing error. This is a correction of our mistake, not a discretionary refund, and doesn't change the no-refund policy for any charge that was correctly billed.
+The no-refund policy above covers subscription payments for service Zfolio actually provided. It does not cover a payment that was never supposed to happen at all — a duplicate charge, a charge for the wrong amount, or a charge that went through after you had already cancelled. If one of those happens, contact us at **zfolio.co.in@gmail.com** within 7 days with your payment reference, and we will correct the billing error. This is a correction of our mistake, not a discretionary refund, and doesn't change the no-refund policy for any charge that was correctly billed.
 
 ## How payments are handled
 
@@ -36,4 +36,4 @@ Subscription payments are processed through Razorpay. Zfolio does not store your
 
 ## Questions
 
-Reach out to **support@zfolio.co.in** for anything about billing, cancellation, or this policy.
+Reach out to **zfolio.co.in@gmail.com** for anything about billing, cancellation, or this policy.
