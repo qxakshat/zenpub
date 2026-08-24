@@ -103,7 +103,7 @@
     "ZYDUSLIFE"
   ],
   "count": 100,
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-24",
   "schema": {
     "path": "stock/fundamentals/fundamentals.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
