@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: Risk Management - Stop-Loss Orders\n\n**Duration:** 7 minutes | **Level:** Beginner-Intermediate\n\n## What Is a Stop-Loss Order?\n\nA **stop-loss order** is a standing instruction to sell a holding automatically if its price falls to, or below, a specific threshold — the **trigger price**. Instead of requiring an investor to watch a position and decide in the moment whether to sell, a stop-loss turns that decision into a rule set in advance.\n\n**Worked example:** An investor buys a stock at ₹500 and places a stop-loss with a trigger price of ₹450 — 10% below the purchase price. If the stock's price touches ₹450, the stop-loss order activates and a sell order is placed.\n\nIndian brokers typically offer two variants of this mechanism, and the difference between them matters:\n\n| Order Type | What Happens Once Triggered |\n|---|---|\n| **Stop-Loss Market (SL-M)** | Sells at the best available market price — execution is prioritized, the exact price is not guaranteed |\n| **Stop-Loss Limit (SL-L)** | Sells only at a specified limit price or better — the price is protected, but the order may not execute at all if the market never trades at that price |\n\nNeither variant is strictly \"better\" — each protects a different thing (guaranteed execution vs. guaranteed price), a tradeoff that becomes very relevant in the limitations below.\n\n---\n\n## Why Investors Use Them\n\nStop-loss orders exist to address two real, separate problems:\n\n- **Discipline against emotional decision-making.** During a fast-moving decline, behavioral tendencies like loss aversion and the hope that \"it'll bounce back\" often lead investors to hold on well past the point they originally intended to sell. A stop-loss removes that in-the-moment decision by setting the exit rule ahead of time, before emotion is involved.\n- **Capping downside on a single position.** A stop-loss limits how much one specific holding can cost a portfolio, functioning as a position-level risk control. This is a different layer from the portfolio-level tools covered in the **Hedging Techniques** lesson, which offset risk across a portfolio rather than capping it on one holding.\n\n---\n\n## Limitation #1: Gap-Down Risk\n\nA stop-loss order triggers *at* a threshold price, but nothing guarantees it *executes* at that exact price. If a stock's price moves sharply between one trading session and the next — for example, opening well below its previous close after unexpected news — the order can execute far below the intended trigger.\n\n**Worked example:** A stop-loss trigger is set at ₹450 on a stock that closed the previous day at ₹460. Overnight, unexpected negative news breaks. The stock opens the next day at ₹410 — already below the trigger. An SL-M order still executes, but near ₹410, not ₹450: the loss was limited compared to holding on with no stop-loss at all, but it was not capped at the level originally intended. An SL-L order set at exactly ₹450 could fare worse still — if the price never trades back up to ₹450 that day, the order may not execute at all, leaving the position unsold.\n\nThis is the central tradeoff between the two order types: SL-M guarantees you get out, but not at what price; SL-L guarantees the price, but not that you get out.\n\n---\n\n## Limitation #2: Whipsaws and Normal Volatility\n\nPrices fluctuate within a range as a normal part of trading, even for fundamentally unchanged holdings. A stop-loss placed too close to the current price can trigger on an ordinary, temporary dip — selling a position that would have continued largely as expected shortly after. This is often called getting **whipsawed**, or \"stopped out.\"\n\n**Worked example:** A stock trading around ₹500 dips intraday to ₹480 on no particular news — a swing well within its normal volatility. A stop-loss set at ₹485 triggers, and the position is sold. Over the following week, the price recovers to ₹510. The stop-loss converted a temporary paper dip into a locked-in, realized loss, and the position missed the subsequent rebound entirely.\n\nThis creates a genuine, unavoidable tension: a stop-loss placed *too close* to the current price risks frequent whipsaws on ordinary noise; one placed *too far away* risks a large loss accumulating before it triggers — and remains exposed to gap-down risk regardless of distance. There is no single \"correct\" distance that solves both problems at once.\n\n---\n\n## Who Do Stop-Losses Actually Suit?\n\nStop-loss orders are most closely associated with trading-style approaches — shorter time horizons, technical entry and exit rules, and systematic position-level risk caps — where cutting a loss quickly and mechanically fits the underlying strategy's own assumptions.\n\nFor long-term, buy-and-hold investing in fundamentally sound assets, the picture is murkier. Ordinary price declines are often just volatility — a normal, temporary feature of markets discussed in the **Risk vs Return** lesson — rather than a signal that anything has actually changed about the underlying business. A stop-loss doesn't distinguish between the two: it reacts identically to a routine dip and a decline caused by a genuine deterioration in fundamentals. For a long-term holding otherwise considered sound, an automatic exit purely on a price threshold can lock in a loss, trigger capital gains tax consequences, and introduce the separate question of when (or whether) to re-enter — for a decline that may not have reflected any real change in what was originally being invested in.\n\n> This is presented as educational information about how stop-loss orders work and their tradeoffs — not a recommendation to use, or to avoid, them. Whether a stop-loss fits a given position depends on the investor's own approach, time horizon, and the reasoning behind the original decision to hold that asset.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Stop-Loss Order** | A pre-set instruction to sell a holding if its price falls to or below a trigger price |\n| **Trigger Price** | The price threshold at which a stop-loss order activates |\n| **SL-M (Stop-Loss Market)** | Executes at the best available price once triggered — prioritizes getting out over the exact price |\n| **SL-L (Stop-Loss Limit)** | Executes only at a specified price or better — prioritizes the price over guaranteed execution |\n| **Gap-Down Risk** | The risk that price moves past the trigger before the order can execute at the intended level |\n| **Whipsaw** | Getting stopped out during a normal, temporary price swing, then missing a subsequent rebound |\n\n---\n\n## Takeaway\n\n✅ A stop-loss order is a pre-set rule to sell if price falls to a chosen trigger — it turns an in-the-moment decision into one made in advance.\n✅ Its main benefits are behavioral discipline and capping downside on a single position — a position-level tool, distinct from the portfolio-level hedging covered in the previous lesson.\n✅ Gap-down risk means execution isn't guaranteed at the trigger price, especially with SL-M orders in fast-moving conditions; SL-L orders trade that risk for the chance of not executing at all.\n✅ Whipsaws — getting stopped out on ordinary volatility, then missing the rebound — are a real, unavoidable tradeoff of placing a stop-loss close to the current price.\n✅ Stop-losses tend to suit trading-style approaches more naturally than long-term, buy-and-hold investing in fundamentally sound assets, where they can't distinguish routine volatility from a genuine change in fundamentals.\n\n**Next lesson:** \"Investor Psychology & Behavioral Biases\" — the mental traps that undermine good decisions regardless of which risk-management tool you're using.\n",
+  "quiz": [
+    {
+      "question": "What does a stop-loss order do, mechanically?",
+      "options": [
+        "It guarantees a position will be sold at exactly the trigger price",
+        "It is a pre-set instruction to sell a holding automatically if its price falls to or below a chosen trigger price",
+        "It automatically buys more of a stock when its price falls",
+        "It is a tax filing related to capital losses"
+      ],
+      "correctIndex": 1,
+      "explanation": "A stop-loss order sets a trigger price in advance; once the price falls to or below it, a sell order is activated. It does not, by itself, guarantee the exact execution price — that depends on whether it's an SL-M or SL-L order and on market conditions."
+    },
+    {
+      "question": "What is the key tradeoff between an SL-M (Stop-Loss Market) and an SL-L (Stop-Loss Limit) order?",
+      "options": [
+        "There is no difference; both always execute at the exact trigger price",
+        "SL-M prioritizes getting the position sold, without guaranteeing the price; SL-L guarantees the price, but may not execute at all if the market never trades there",
+        "SL-L is only available for mutual funds, not stocks",
+        "SL-M orders are always more expensive to place than SL-L orders"
+      ],
+      "correctIndex": 1,
+      "explanation": "SL-M sells at the best available price once triggered, so execution is prioritized over price. SL-L only sells at the specified limit price or better, so the price is protected but the order can go unfilled if the price never returns there."
+    },
+    {
+      "question": "A stop-loss trigger is set at ₹450, but the stock gaps down and opens the next day at ₹410 after unexpected bad news. What does this illustrate?",
+      "options": [
+        "The stop-loss will simply cancel itself and do nothing",
+        "Gap-down risk — the order still triggers, but an SL-M order executes near the opening price, not the intended trigger price, since price moved past the trigger before the order could act",
+        "The trigger price automatically adjusts to match the new opening price with no loss",
+        "The investor is guaranteed to still sell at exactly ₹450"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gap-down risk means price can jump past the trigger level before the order can execute, especially overnight. An SL-M order still sells, but likely near the new, lower price rather than the originally intended ₹450."
+    },
+    {
+      "question": "What is a \"whipsaw\" in the context of stop-loss orders?",
+      "options": [
+        "A type of chart pattern used only in technical analysis of currencies",
+        "Getting stopped out (sold) during a normal, temporary price dip, and then missing the subsequent rebound",
+        "A stop-loss order that executes at a better price than expected",
+        "A legal penalty for placing too many stop-loss orders in one day"
+      ],
+      "correctIndex": 1,
+      "explanation": "A whipsaw happens when a stop-loss set too close to the current price triggers on ordinary volatility rather than a real decline, locking in a loss on a position that would likely have recovered shortly after."
+    },
+    {
+      "question": "According to this lesson, why might a stop-loss order be a poor fit for a long-term, buy-and-hold investor holding a fundamentally sound asset?",
+      "options": [
+        "Because stop-loss orders are illegal for long-term investors in India",
+        "Because a stop-loss can't distinguish routine, temporary volatility from an actual deterioration in fundamentals, potentially forcing an exit and tax consequences over a normal price swing",
+        "Because stop-loss orders only work for portfolios worth over ₹1 crore",
+        "Because long-term investors are not allowed to sell assets under any circumstances"
+      ],
+      "correctIndex": 1,
+      "explanation": "A stop-loss reacts purely to price crossing a threshold — it treats a routine dip and a genuine fundamental decline identically. For a long-term holding otherwise considered sound, that can mean locking in a loss (and tax consequences) over volatility that didn't actually reflect a change in the underlying business."
+    }
+  ]
+}

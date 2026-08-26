@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: Capital Gains Tax\n\n**Duration:** 8 minutes | **Level:** Beginner\n\n## Why Taxes Belong in a Portfolio Lesson\n\nIt's tempting to think of tax as something that happens *after* investing — a form you fill out once a year, unrelated to the actual decisions of buying and selling. In reality, tax is one of the few costs in investing that is completely predictable and completely within your control to plan around. Two investors can hold the exact same stock, sell it on the exact same day, and walk away with different post-tax returns purely because of *when* each of them originally bought in. That single variable — holding period — is the entire subject of this lesson.\n\nThis chapter covers how gains on listed Indian equity and equity mutual funds are taxed under the rules in force as of FY 2026-27 (AY 2027-28). Tax rates, exemption thresholds, and holding-period rules are set by the Union Budget and change from time to time — this is educational information, not personalized tax advice, and the figures below should be checked against the latest Union Budget and confirmed with a qualified tax professional or chartered accountant before making any decision based on them.\n\n---\n\n## The Two Categories: LTCG and STCG\n\nWhen you sell a stock or equity mutual fund unit for more than you paid, that profit is a **capital gain**. For listed Indian equity and equity mutual funds, the tax you owe on that gain depends entirely on one thing: **how long you held it before selling.**\n\n| | Holding Period | Tax Rate | Exemption |\n|---|---|---|---|\n| **Short-Term Capital Gains (STCG)** | 12 months or less | 20% | None |\n| **Long-Term Capital Gains (LTCG)** | More than 12 months | 12.5%, no indexation | ₹1,25,000 per financial year |\n\nThe 12-month line is the single most important number in this lesson. Sell a day before you cross it, and your gain is taxed as STCG at 20%. Sell a day after, and the same gain is taxed as LTCG — at a lower rate, and with a chunk of it potentially tax-free altogether.\n\n> 📌 **\"No indexation\" simply means:** the taxable gain is calculated using the actual purchase price and sale price, without adjusting the purchase price upward for inflation over the years you held the asset. This rule applies specifically to listed equity/equity mutual funds under the current regime — other asset classes can have different indexation treatment, which is outside the scope of this lesson.\n\n---\n\n## The ₹1.25 Lakh LTCG Exemption\n\nHere's the part that surprises a lot of first-time investors: LTCG on listed equity isn't taxed from the first rupee of profit. Every financial year, the **first ₹1,25,000 of LTCG is completely exempt** from tax. Only the amount *above* that threshold is taxed, and only at 12.5%.\n\nThis exemption resets every financial year — it isn't something you accumulate or carry forward, and it isn't a deduction you have to claim through a separate investment. It applies automatically to your total LTCG from listed equity and equity mutual funds for the year.\n\n### Worked Example: ₹3,00,000 in LTCG\n\nSay an investor sells several long-held stock positions this financial year and realizes a total LTCG of ₹3,00,000. Here's how the tax is worked out, step by step:\n\n| Step | Amount |\n|---|---|\n| Total LTCG for the year | ₹3,00,000 |\n| Less: exemption | −₹1,25,000 |\n| Taxable LTCG | ₹1,75,000 |\n| Tax rate | 12.5% |\n| **Tax payable** | **₹21,875** |\n\nOn a ₹3,00,000 gain, the investor pays ₹21,875 in tax — an effective rate of roughly 7.3% on the *total* gain, even though the stated LTCG rate is 12.5%. The exemption is doing real work here, and it does more work, proportionally, for smaller gains. An investor with exactly ₹1,25,000 in LTCG for the year pays **zero** tax on it.\n\n### A Second Example: Mixing STCG and LTCG\n\nSuppose the same investor also sold a stock held for only 7 months, realizing a ₹50,000 short-term gain, in addition to the ₹3,00,000 LTCG above.\n\n| Gain Type | Amount | Exemption | Taxable | Rate | Tax |\n|---|---|---|---|---|---|\n| STCG | ₹50,000 | None | ₹50,000 | 20% | ₹10,000 |\n| LTCG | ₹3,00,000 | ₹1,25,000 | ₹1,75,000 | 12.5% | ₹21,875 |\n| **Total** | | | | | **₹31,875** |\n\nNotice the STCG portion gets no exemption at all — the ₹1.25 lakh threshold applies only to LTCG. This is exactly why holding period matters so much: the same ₹50,000 profit would have paid ₹0 in tax (fully covered by the exemption, assuming no other LTCG that year) had it been held past 12 months instead of being taxed at a flat 20% as a short-term gain.\n\n---\n\n## Why Holding Period Matters for Planning — With a Caveat\n\nThe gap between a 20% STCG rate and an effectively-much-lower LTCG rate (thanks to the exemption) means holding period is a legitimate, quantifiable input into *when* you sell. If a position is a few weeks away from crossing the 12-month mark, and you were planning to sell it anyway for investment reasons, it's worth knowing what waiting could save in tax.\n\nBut this cuts only one way, and it's important to be honest about the limit of this logic: **tax should rarely, if ever, be the only reason to sell — or to hold.** A stock whose business case has deteriorated doesn't improve because you're waiting for a tax-rate change. Riding a bad investment for a few extra weeks to save ~7.5 percentage points of tax on a possibly-shrinking gain is a common way investors let a small, real tax saving quietly cost them a much larger investment loss. Use holding period as one input among many — never as the deciding one.\n\n---\n\n## Does It Matter If It's a Stock or a Mutual Fund?\n\nThe 12-month threshold, the 20%/12.5% rates, and the ₹1.25 lakh exemption described above apply to **listed equity shares and equity-oriented mutual funds** as a category — the mechanics are the same whether the gain came from selling individual stock holdings directly or from redeeming units of an equity mutual fund. What matters for classification is the *nature of the underlying investment* (equity) and the *holding period*, not the wrapper you happen to hold it through.\n\nThis matters in practice because a lot of investors track their stock trades closely but forget that redeeming mutual fund units is *also* a taxable sale event, subject to the exact same STCG/LTCG logic. Redeeming a mutual fund SIP installment before it's been held 12 months triggers STCG at 20% on that installment's gain, just as it would for an individual stock. The **ELSS Funds** lesson later in this module covers a specific mutual fund category with its own additional lock-in rules layered on top of this same tax framework.\n\n---\n\n## A Practical Habit: Track Your Holding Dates\n\nBecause the tax difference between STCG and LTCG can be substantial — a flat 20% versus an exemption-adjusted 12.5% — it's worth actually knowing, for each position you hold, the date you'd cross the 12-month mark. This app's portfolio view is one place to check purchase dates against today's date before placing a sell order, precisely so that holding-period tax treatment is a known quantity rather than a surprise discovered at filing time.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Capital Gain** | Profit from selling an investment for more than its purchase price |\n| **STCG (Short-Term Capital Gains)** | Gain on listed equity held ≤12 months; taxed at 20% |\n| **LTCG (Long-Term Capital Gains)** | Gain on listed equity held >12 months; taxed at 12.5%, no indexation |\n| **LTCG Exemption** | The first ₹1,25,000 of LTCG per financial year is tax-free |\n| **Indexation** | Adjusting purchase price for inflation before calculating gain — not available for listed equity LTCG under the current rules |\n| **Holding Period** | The length of time an asset is held before sale; the sole determinant of STCG vs. LTCG classification |\n\n---\n\n## Takeaway\n\n✅ Listed equity held ≤12 months is STCG, taxed flat at 20% with no exemption.\n✅ Listed equity held >12 months is LTCG, taxed at 12.5% with no indexation — and the first ₹1,25,000 of LTCG each financial year is exempt.\n✅ The exemption resets annually and applies automatically to your total LTCG, not per-stock.\n✅ Crossing the 12-month mark can meaningfully change the tax on a gain — but the underlying investment case should always come first.\n✅ Tax rules can change, and personal situations vary — confirm specifics with a qualified tax professional before filing.\n\n**Next lesson:** \"Tax-Loss Harvesting\" — how realized losses can be used to legitimately reduce taxable gains.\n",
+  "quiz": [
+    {
+      "question": "An investor sells a stock after holding it for exactly 14 months. How is the gain classified?",
+      "options": [
+        "Short-Term Capital Gains (STCG), taxed at 20%",
+        "Long-Term Capital Gains (LTCG), taxed at 12.5% with no indexation",
+        "It is automatically exempt regardless of amount",
+        "It depends on which stock exchange it was sold on"
+      ],
+      "correctIndex": 1,
+      "explanation": "Listed equity held for more than 12 months qualifies as LTCG, taxed at 12.5% without indexation benefit — the 12-month mark is the sole determinant of STCG vs. LTCG."
+    },
+    {
+      "question": "An investor's total LTCG for the financial year is exactly ₹1,25,000, with no other capital gains. What tax do they owe on it?",
+      "options": [
+        "₹15,625 (12.5% of the full amount)",
+        "₹25,000 (20% of the full amount)",
+        "₹0 — the entire amount falls within the annual LTCG exemption",
+        "₹12,500 (10% flat rate)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The first ₹1,25,000 of LTCG per financial year is exempt from tax. Since the gain exactly equals the exemption threshold, no tax is owed."
+    },
+    {
+      "question": "An investor has ₹3,00,000 in LTCG for the year and no other capital gains. What is the tax payable?",
+      "options": [
+        "₹37,500 (12.5% of ₹3,00,000)",
+        "₹21,875 (12.5% of ₹1,75,000 taxable after the ₹1,25,000 exemption)",
+        "₹60,000 (20% of ₹3,00,000)",
+        "₹0, since equity LTCG is always exempt"
+      ],
+      "correctIndex": 1,
+      "explanation": "After subtracting the ₹1,25,000 exemption from ₹3,00,000, taxable LTCG is ₹1,75,000. Taxed at 12.5%, that comes to ₹21,875."
+    },
+    {
+      "question": "What does \"no indexation\" mean for LTCG on listed equity under the current rules?",
+      "options": [
+        "The gain is calculated using actual purchase and sale prices, without adjusting the purchase price for inflation",
+        "The investment cannot be listed on any stock index",
+        "The gain is indexed to the Nifty 50 for tax purposes",
+        "The exemption threshold increases every year with inflation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indexation would normally adjust the purchase price upward for inflation before computing gain, lowering taxable profit. For listed equity/equity mutual fund LTCG, this benefit is not available — gain is computed on actual prices."
+    },
+    {
+      "question": "An investor is deciding whether to sell a stock whose business fundamentals have clearly deteriorated, two weeks before it would cross the 12-month LTCG threshold. What does this lesson suggest?",
+      "options": [
+        "Always wait the two weeks — the tax saving is guaranteed to outweigh any further loss",
+        "Tax treatment is a legitimate input into timing, but it should rarely be the only reason to hold or sell a deteriorating investment",
+        "It doesn't matter — STCG and LTCG are taxed identically for equity",
+        "Sell immediately regardless of tax, since holding period never affects equity tax rates"
+      ],
+      "correctIndex": 1,
+      "explanation": "Holding period is a real, quantifiable factor in tax planning, but letting a small tax saving override a deteriorating investment case is a common and costly mistake — the underlying investment logic should generally come first."
+    }
+  ]
+}

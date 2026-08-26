@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: ELSS Funds\n\n**Duration:** 7 minutes | **Level:** Beginner\n\n## An Equity Fund With a Tax Deduction Attached\n\nMost equity mutual funds are just that — funds that invest in equity, with no special tax treatment beyond the standard LTCG/STCG rules covered in the **Capital Gains Tax** lesson. **ELSS (Equity-Linked Savings Scheme)** funds are a specific category that comes with an extra feature bolted on: investing in them can reduce your taxable income *today*, under a specific section of the Income Tax Act, in exchange for agreeing to leave the money invested for a minimum period.\n\nThat trade — a tax deduction now, in exchange for a lock-in — is the entire identity of ELSS as a category. This lesson covers what an ELSS fund actually is, how the lock-in works (including a nuance that trips up a lot of SIP investors), the deduction itself, and how ELSS compares conceptually to other common tax-saving options.\n\n---\n\n## What Is an ELSS Fund?\n\nAn ELSS fund is, mechanically, an equity mutual fund — it invests predominantly in stocks, and it carries the market risk and return potential of equity investing like any other equity fund. What sets it apart is purely a tax-law label: because it qualifies under **Section 80C** of the Income Tax Act, investing in it lets you claim a deduction on your taxable income, and in exchange, the fund imposes a **mandatory 3-year lock-in** from the date of each investment.\n\nBeyond the lock-in and the deduction, an ELSS fund behaves like any other diversified equity fund — its returns are driven by the performance of the stocks it holds, subject to the same LTCG/STCG tax treatment (12.5% on LTCG above ₹1,25,000/year, 20% on STCG) covered in earlier lessons once units are actually sold.\n\n---\n\n## The 3-Year Lock-In — and the SIP Nuance\n\nEvery rupee invested in an ELSS fund is locked in for **3 years from its date of investment**. You cannot redeem those units — no matter how much they've gained or lost — until the 3-year mark passes.\n\nThis is straightforward for a **lump-sum investment**: invest ₹50,000 on a single date, and that entire ₹50,000 (plus whatever it has grown to) unlocks on the same date 3 years later.\n\nIt gets more interesting with a **SIP (Systematic Investment Plan)** — investing a fixed amount every month. Here's the nuance that catches a lot of first-time ELSS investors off guard:\n\n> **Each SIP installment has its own, independent 3-year lock-in window.** It is *not* the case that starting a SIP locks in the whole plan for 3 years from the first installment. Every single monthly installment is treated as a separate investment, with its own lock-in clock starting from the date *that specific installment* was made.\n\n### Worked Example\n\nAn investor starts a monthly SIP of ₹5,000 into an ELSS fund on the 15th of each month, starting January 2024. Here's when a few of those installments actually unlock:\n\n| Installment Date | Lock-In Ends |\n|---|---|\n| 15 Jan 2024 | 15 Jan 2027 |\n| 15 Feb 2024 | 15 Feb 2027 |\n| 15 Mar 2024 | 15 Mar 2027 |\n| ... | ... |\n| 15 Dec 2026 | 15 Dec 2029 |\n\nBy early 2027, the investor's very first installments start becoming redeemable — but installments made later are still locked in, each unlocking exactly 3 years after it was invested. If this investor stops the SIP and wants to redeem everything at once, they'd find that only the older installments are actually available; the more recent ones are still inside their individual lock-in windows. Planning around ELSS liquidity means thinking in terms of *each installment's own clock*, not one single date for the whole SIP.\n\n---\n\n## The Section 80C Deduction — Old Regime Only\n\nThe reason ELSS exists as a distinct fund category is **Section 80C** of the Income Tax Act, which allows a deduction of up to **₹1,50,000 per financial year** from taxable income for a defined list of eligible investments and expenses — ELSS is one of them, alongside things like PPF, life insurance premiums, and principal repayment on a home loan, among others.\n\nHere is the point most likely to cause confusion, and it deserves to be stated plainly:\n\n> ⚠️ **The Section 80C deduction — including for ELSS — is available only under the OLD tax regime.** The **NEW tax regime**, which has been the default regime since FY 2023-24 unless a taxpayer actively chooses to opt for the old regime instead, does **not** allow the 80C deduction at all.\n\nThis means the tax-saving pitch behind ELSS — \"invest and reduce your taxable income by up to ₹1,50,000\" — simply doesn't apply if you're filing under the new regime, which is now most taxpayers by default. Before investing in ELSS specifically *for* the 80C benefit, it's worth confirming which regime you're actually filing under, since choosing (or defaulting into) the new regime removes the deduction entirely — the fund still exists and can still be invested in as a plain equity fund, but the tax-saving reason for choosing it over any other equity fund disappears under the new regime.\n\n---\n\n## How ELSS Compares to Other 80C Options\n\nELSS is one of several instruments that qualify for the 80C deduction (under the old regime), but they are far from interchangeable — the lock-in length and the underlying asset class differ sharply:\n\n| | ELSS | PPF (Public Provident Fund) |\n|---|---|---|\n| **Asset class** | Equity (market-linked, variable returns) | Government-backed debt instrument |\n| **Lock-in** | 3 years (shortest among common 80C options) | Much longer — a multi-year lock-in measured in over a decade |\n| **Return character** | Variable, tied to equity market performance | Fixed/declared periodically by the government |\n| **80C eligible** | Yes (old regime only) | Yes (old regime only) |\n\nThe point of this comparison isn't that one is \"better\" — it's that they serve different roles. ELSS has by far the shortest lock-in among common 80C instruments, and its equity exposure means it carries market risk in exchange for higher long-term return potential. PPF and similar debt-oriented options trade a much longer lock-in for government-backed stability and predictability. This lesson intentionally does not state current PPF interest rates or exact PPF tenure figures, since these are set and revised by the government periodically — check current, official figures before comparing precisely.\n\n---\n\n## A Brief Note on Rules Changing\n\nTax law — including the 80C list, deduction limits, and which regime is the default — is set by the government and can change from one budget to the next. Treat the figures in this lesson as a snapshot of the rules as of FY 2026-27 (AY 2027-28), not a permanent guarantee — check the latest Union Budget for any change to these specific rules, and confirm current figures with a qualified tax professional or chartered accountant before making a filing decision based on them.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **ELSS (Equity-Linked Savings Scheme)** | An equity mutual fund category that qualifies for Section 80C deduction, with a mandatory 3-year lock-in |\n| **Lock-In Period** | The minimum time units must be held before redemption is allowed |\n| **Section 80C** | Income Tax Act provision allowing deductions up to ₹1,50,000/year for eligible investments — old tax regime only |\n| **Old Tax Regime** | The tax regime that permits deductions like 80C, opted into rather than default |\n| **New Tax Regime** | The default regime since FY 2023-24; does not allow the 80C deduction |\n| **SIP (Systematic Investment Plan)** | Fixed periodic investment; in ELSS, each installment carries its own independent 3-year lock-in |\n\n---\n\n## Takeaway\n\n✅ ELSS is an equity mutual fund that qualifies for a Section 80C deduction in exchange for a mandatory 3-year lock-in.\n✅ For SIP investments, each monthly installment has its own independent 3-year lock-in — not one lock-in for the whole SIP.\n✅ Section 80C allows deductions up to ₹1,50,000/year — but only under the old tax regime; the new regime (the default since FY 2023-24) does not allow it.\n✅ Beyond the lock-in and deduction, ELSS follows the same LTCG/STCG tax rules as any other equity investment once units are sold.\n✅ Compared to other 80C options like PPF, ELSS has a much shorter lock-in but carries equity market risk instead of government-backed stability — confirm current details with a tax professional before deciding.\n\n**Next lesson:** \"Options Trading Basics\" — an introduction to a different corner of the markets entirely.\n",
+  "quiz": [
+    {
+      "question": "What is the mandatory lock-in period for a lump-sum investment in an ELSS fund?",
+      "options": [
+        "1 year",
+        "3 years",
+        "5 years",
+        "There is no lock-in for ELSS"
+      ],
+      "correctIndex": 1,
+      "explanation": "ELSS funds carry a mandatory 3-year lock-in from the date of investment, the shortest lock-in among common Section 80C-eligible options."
+    },
+    {
+      "question": "An investor runs a monthly SIP into an ELSS fund for 2 years and then stops. How does the lock-in apply to the accumulated units?",
+      "options": [
+        "The entire SIP is locked in for 3 years starting from the very first installment only",
+        "Each monthly installment has its own independent 3-year lock-in, starting from that installment's own investment date",
+        "SIP investments in ELSS have no lock-in at all",
+        "The lock-in only applies to the final installment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each SIP installment in an ELSS fund is treated as a separate investment with its own 3-year lock-in clock — not one lock-in date for the whole SIP."
+    },
+    {
+      "question": "Under which tax regime can an investor claim the Section 80C deduction for an ELSS investment?",
+      "options": [
+        "Both the old and new tax regimes equally",
+        "Only the new tax regime",
+        "Only the old tax regime — the new tax regime does not allow the 80C deduction",
+        "Neither regime allows 80C deductions anymore"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Section 80C deduction, including for ELSS, is available only under the old tax regime. The new tax regime, the default since FY 2023-24, does not permit this deduction."
+    },
+    {
+      "question": "What is the maximum deduction available under Section 80C per financial year (old regime)?",
+      "options": [
+        "₹1,00,000",
+        "₹1,25,000",
+        "₹1,50,000",
+        "₹2,00,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Section 80C allows deductions up to ₹1,50,000 per financial year for eligible investments and expenses, including ELSS — but only under the old tax regime."
+    },
+    {
+      "question": "How does ELSS's lock-in generally compare to PPF's lock-in?",
+      "options": [
+        "ELSS has a much longer lock-in than PPF",
+        "They have identical lock-in periods",
+        "ELSS's 3-year lock-in is considerably shorter than PPF's much longer, multi-year lock-in",
+        "PPF has no lock-in at all"
+      ],
+      "correctIndex": 2,
+      "explanation": "ELSS has one of the shortest lock-ins among 80C-eligible instruments at 3 years, while PPF carries a much longer lock-in measured in well over a decade, trading liquidity for government-backed stability."
+    }
+  ]
+}

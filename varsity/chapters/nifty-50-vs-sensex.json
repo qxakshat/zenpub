@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: Beat the Index - Nifty 50 vs Sensex\n\n**Duration:** 7 minutes | **Level:** Beginner\n\n## Two Indices, One Country\n\nIndia's two headline stock indices are quoted side by side on every business news channel, but they're not identical — and the differences matter if you're choosing which one to track, or comparing your own portfolio's performance against one.\n\n| Feature | Nifty 50 | Sensex |\n|---|---|---|\n| **Exchange** | NSE (National Stock Exchange) | BSE (Bombay Stock Exchange) |\n| **Number of stocks** | 50 | 30 |\n| **Launched** | 1996 | 1986 |\n| **Full name** | Nifty 50 (NSE Fifty) | S&P BSE Sensex (Sensitive Index) |\n| **Weighting method** | Free-float market capitalization | Free-float market capitalization |\n| **Review frequency** | Semi-annual reconstitution | Semi-annual reconstitution |\n| **Sector breadth** | Slightly broader (more stocks) | More concentrated in fewer names |\n\nSensex is the older of the two by a full decade — it's the BSE's flagship index, first published in 1986, and is widely regarded as the original barometer of the Indian stock market. Nifty 50 arrived in 1996 as the NSE's own answer, built to represent the broader NSE-listed universe rather than just the BSE's own 30. Both exchanges compete for trading volume today, but their indices have converged into what most investors treat as interchangeable shorthand for \"the Indian large-cap market.\"\n\n---\n\nBoth use **free-float market capitalization weighting** — the construction method covered in full in the previous lesson's \"How an Index Fund Is Actually Constructed\" section, so it isn't repeated here. One detail worth carrying forward: neither index is equal-weighted, and a handful of the largest companies (historically Reliance Industries, HDFC Bank, ICICI Bank, Infosys, TCS) account for a disproportionately large share of both indices' total weight — which is exactly why the next section's close tracking happens.\n\n---\n\n## Do They Actually Move Differently?\n\nIn practice, Nifty 50 and Sensex track each other very closely — day to day, if one is up 1%, the other is almost always up a similar amount, often within a few basis points of each other. The reason is straightforward: **Sensex's 30 stocks are almost entirely a subset of Nifty 50's 50 stocks.** Because both indices are built from the same pool of the largest, most liquid Indian companies, and both weight by free-float market cap, the handful of mega-cap names that dominate one index's weight also dominate the other's. When Reliance or HDFC Bank moves sharply, both indices feel it, because both give those names an outsized share of total weight.\n\nWorth being precise about what kind of fact this is: the near-total overlap is a description of *today's* index composition, not a structural guarantee written into either index's rulebook. Semi-annual reconstitution could, in principle, ever pull the two apart if one index's committee made materially different inclusion choices than the other's — it just hasn't happened in practice, because both draw from the same pool of India's largest, most liquid listed companies.\n\nThe differences that do show up are mostly at the margins: Nifty's extra 20 slots (vs. Sensex's 30) spread its remaining weight across a few more mid-sized names and sectors, and occasionally pick up a fast-growing company a little sooner than the more selective Sensex does. For most long-term investors, the choice between a Nifty 50 fund and a Sensex fund matters far less than the choice of *how much* to allocate to Indian large-caps at all, versus mid-caps, small-caps, bonds, gold, or international exposure — a question the Asset Allocation module covers.\n\n---\n\n## A Simple Illustration of the Overlap\n\nImagine a simplified 5-stock world for intuition (illustrative, not real weights): if Sensex holds Stock A, B, C, D, E and Nifty 50 holds those same five plus F through Z, then any single-day move in Stock A or B — the largest names — shows up almost identically in both index returns, because both indices assign those stocks similar (large) proportional weight. The extra stocks in Nifty 50 add breadth, but they rarely move the needle enough to make the two indices diverge meaningfully on any given day. This is exactly what plays out with the real indices: the overlap in their largest, most heavily-weighted constituents is what keeps them moving together, not a coincidence of similar stock counts.\n\n---\n\n## Why This Matters Here\n\nBoth indices share the exact limitation the previous lesson covered in full — neither adjusts to your risk tolerance or to how correlated your own holdings are with each other. \"Beating the index\" isn't really about picking Nifty over Sensex, then — the two are close enough substitutes that the choice barely matters. The real question is whether a portfolio *built specifically around your holdings* can do better on a risk-adjusted basis than either fixed-formula basket, which is exactly what the final lesson in this module, **Beating a Simple Index Fund**, walks through.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Free-float Market Cap** | Value of a company's publicly-tradable shares, used to weight index membership |\n| **NSE / BSE** | India's two major stock exchanges — home to Nifty 50 and Sensex respectively |\n| **Reconstitution** | The periodic review where an index adds/removes member stocks to stay representative |\n| **Index Correlation** | How closely two indices move together — Nifty and Sensex are very highly correlated |\n| **Mega-cap Concentration** | The tendency of the largest few stocks to dominate an index's total weight |\n\n---\n\n## Takeaway\n\n✅ Nifty 50 (NSE, 50 stocks, launched 1996) and Sensex (BSE, 30 stocks, launched 1986) both use free-float market-cap weighting and move almost identically day-to-day.\n✅ The close tracking isn't a coincidence — it's because Sensex's 30 stocks are almost entirely a subset of Nifty 50's 50, and both are dominated by the same handful of mega-cap names.\n✅ The real differences are in breadth (50 vs 30 stocks) and minor sector tilts — not in how each index is fundamentally built or reviewed.\n✅ Both share the same core limitation: neither adapts to your personal risk tolerance or the correlation between what you actually hold.\n\n**Next lesson:** \"Passive vs Active Investing\" — when tracking an index makes sense, and when an optimized approach can add value.\n",
+  "quiz": [
+    {
+      "question": "How many stocks does the Sensex track, and on which exchange?",
+      "options": [
+        "50 stocks on the NSE",
+        "30 stocks on the BSE",
+        "30 stocks on the NSE",
+        "100 stocks on the BSE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sensex is the BSE's flagship index and tracks the 30 largest companies listed on the Bombay Stock Exchange, first published in 1986."
+    },
+    {
+      "question": "Why do Nifty 50 and Sensex move almost identically on most days, despite tracking a different number of stocks?",
+      "options": [
+        "Because SEBI forces both indices to report the same number",
+        "Because Sensex's 30 stocks are almost entirely a subset of Nifty 50's 50, and both are dominated by the same mega-cap names",
+        "Because they are actually the exact same index with two different names",
+        "Because both indices are equal-weighted, so stock count doesn't matter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both indices draw from the same pool of the largest, most liquid Indian companies and use free-float market-cap weighting, so the same handful of mega-cap stocks dominate both indices' returns."
+    },
+    {
+      "question": "Which index was launched first, and by roughly how many years?",
+      "options": [
+        "Nifty 50 first, by about 10 years",
+        "Sensex first, by about 10 years",
+        "They launched in the same year",
+        "Nifty 50 first, by about 30 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sensex was first published in 1986, a decade before Nifty 50 launched in 1996."
+    },
+    {
+      "question": "Both Nifty 50 and Sensex are 'equal-weighted' indices, meaning every stock gets the same share of the index.",
+      "options": [
+        "True — every one of the 50 or 30 stocks gets exactly 1/50th or 1/30th weight",
+        "False — both use free-float market-cap weighting, so the largest few companies dominate the index's total weight",
+        "True, but only for the Sensex",
+        "False — Nifty 50 is equal-weighted but Sensex is not"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neither index is equal-weighted. Both weight constituents by free-float market capitalization, so a handful of mega-cap stocks account for a disproportionately large share of each index's total weight and movement."
+    },
+    {
+      "question": "According to this lesson, what does NOT differ meaningfully between a Nifty 50 index fund and a Sensex index fund for a typical long-term investor?",
+      "options": [
+        "The number of underlying stocks (50 vs 30)",
+        "The exchange each index is based on (NSE vs BSE)",
+        "Their core limitation of not adapting to your personal risk tolerance or holdings correlation",
+        "The year each index was launched"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both indices share the exact same structural limitation: they're fixed-formula, 100%-equity baskets that never adjust for an individual investor's risk tolerance or how their other holdings correlate."
+    }
+  ]
+}

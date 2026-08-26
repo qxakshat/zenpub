@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: Asset Allocation - Retirement & Goal Planning\n\n**Duration:** 9 minutes | **Level:** Beginner-Intermediate\n\n## Why Retirement Is a Different Kind of Planning Problem\n\nEvery allocation idea in this module so far — the **60-30-10 Rule**, **Age-Based Allocation**, **Rebalancing Strategies** — has been about how to hold a portfolio *while* you're adding to it. Retirement planning asks a related but genuinely different question: how much do you need to have accumulated by a specific future date, and how do you get there — followed immediately by a second question those earlier lessons don't touch at all: how do you make that pile of money *last* once you stop adding to it and start drawing it down instead.\n\nTwo things make this planning problem distinct from ordinary portfolio management:\n\n- **The horizon is long and the target is inflation-adjusted.** A 35-year-old planning for a retirement 30 years away isn't just saving toward a rupee number — they're saving toward what that rupee number needs to *buy*, decades from now, after inflation has quietly eroded the purchasing power of every rupee along the way.\n- **It has two distinct phases.** **Accumulation** — adding money, benefiting from time and compounding — and **decumulation** — withdrawing money, where the **Age-Based Allocation** lesson's sequence-of-returns risk becomes the dominant concern rather than a footnote, because a bad market stretch early in withdrawal can permanently damage a corpus in a way the same bad stretch wouldn't during accumulation.\n\n---\n\n## The Corpus Math: A Worked Example\n\nSay a 35-year-old wants ₹50,000 a month in *today's* purchasing power once they retire, 30 years from now, and assumes 6% average annual inflation over that period (inflation, like every rate in this course, is an assumption, not a guarantee).\n\n**Step 1 — inflate the target.** ₹50,000 a month, compounded at 6% for 30 years:\n\n> ₹50,000 × (1.06)^30 ≈ **₹2,87,175 a month** in year-30 rupees — or about **₹34,46,095 a year.**\n\nThat number alone is worth sitting with: the same lifestyle that costs ₹50,000 a month today costs nearly six times as much, in nominal rupees, 30 years from now — not because the lifestyle changed, but because a rupee simply buys less every year.\n\n**Step 2 — size the corpus.** One common (not the only, and not guaranteed-correct) approach is a **safe withdrawal rate** — a rule of thumb for how much of a retirement corpus can be withdrawn each year without a high risk of running out too early, often cited around 4% annually, equivalent to needing roughly **25 times** the first year's annual expense as a starting corpus:\n\n> ₹34,46,095 × 25 ≈ **₹8.62 crore** required corpus at retirement.\n\n**Step 3 — work backward to a monthly SIP.** Assuming a net 11% annual return during the 30-year accumulation phase (see the **Mutual Funds & SIPs** lesson for how a SIP's return compounds), reaching ₹8.62 crore in 30 years requires investing roughly:\n\n> **₹34,075 a month**, every month, for 30 years.\n\nEvery number here is a deliberate assumption, not a promise — a different inflation rate, a different withdrawal rate, or a different assumed return changes the required monthly figure substantially. The value of walking through the math isn't landing on one \"correct\" number; it's seeing how sensitive the required monthly saving is to each assumption, which is exactly why revisiting the plan periodically, rather than setting it once and forgetting it, matters.\n\n---\n\n## Why the Decumulation Phase Deserves Its Own Attention\n\nThe **Age-Based Allocation** lesson's \"Retirement Danger Zone\" section introduced **sequence-of-returns risk**: the same average return, arriving in a different order, produces a very different outcome once withdrawals start. It's worth restating why this phase specifically, rather than the accumulation years, is where that risk concentrates: during accumulation, a bad market year while you're still adding money means buying more units at a lower price — the **Mutual Funds & SIPs** lesson's rupee-cost-averaging effect actually works *in your favor* here. During decumulation, a bad market year while you're withdrawing money means selling units at a depressed price to fund that withdrawal, permanently locking in a smaller remaining base — rupee-cost averaging runs in reverse. This is the concrete, mechanical reason a retiree's allocation is typically shifted more conservative than an accumulator's, beyond simply \"older investors should be more careful.\"\n\n---\n\n## How This App's Financial Planner Ties In\n\nDoing the corpus math above by hand, correctly, with the right compounding formulas, for every combination of target lifestyle, horizon, and assumption an investor might want to test, isn't realistic to expect from most people. This app's **Financial Planner** screen exists for exactly this calculation: enter an income and a retirement goal, and it works through the same accumulation math above — inflating a target expense, sizing a corpus, and solving for the required monthly SIP — automatically, letting different inflation, return, or horizon assumptions be tested in seconds rather than worked out by hand. It doesn't remove the uncertainty every assumption in this lesson carries; it removes the friction of recalculating the whole chain every time one assumption changes, which is exactly the kind of \"revisit periodically\" habit the corpus math section above argued for.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **Accumulation Phase** | The period of adding to a portfolio, before retirement |\n| **Decumulation Phase** | The period of withdrawing from a portfolio, after retirement |\n| **Safe Withdrawal Rate** | A rule-of-thumb annual withdrawal percentage (commonly cited around 4%) intended to make a retirement corpus last |\n| **Required Corpus** | The portfolio size needed at retirement to sustain planned withdrawals |\n| **Sequence-of-Returns Risk** | The risk that the *order* of returns, not just their average, determines outcomes once withdrawals begin |\n\n---\n\n## Takeaway\n\n✅ Retirement planning targets an inflation-adjusted future number, not today's rupee figure — in the worked example, a ₹50,000/month lifestyle today needed ₹2,87,175/month 30 years out, after 6% inflation.\n✅ A common (not guaranteed) sizing approach uses a safe withdrawal rate — roughly 25 times first-year annual expense as the required corpus, in the 4%-withdrawal-rate version.\n✅ Every number in the corpus math is an assumption — inflation, withdrawal rate, and expected return each meaningfully change the required monthly saving, which is why revisiting the plan periodically matters more than getting one calculation \"right\" once.\n✅ Sequence-of-returns risk concentrates specifically in the decumulation phase, where a bad market year forces selling units at depressed prices — the mechanical reason retirement allocations shift more conservative near and after retirement.\n✅ This app's Financial Planner screen automates the same accumulation math this lesson walked through by hand, making it fast to re-test under different assumptions.\n\n**Next module:** \"Stock Analysis\" — starting with \"Fundamental Analysis,\" on evaluating whether a business is actually sound before deciding what to do with its stock.\n",
+  "quiz": [
+    {
+      "question": "Why does retirement planning target an inflation-adjusted future number rather than today's rupee figure?",
+      "options": [
+        "Inflation doesn't affect retirement planning",
+        "A rupee amount that covers a given lifestyle today will not cover the same lifestyle decades from now, since inflation erodes purchasing power over time",
+        "Retirement corpora are never affected by inflation",
+        "Because tax rates always rise over time"
+      ],
+      "correctIndex": 1,
+      "explanation": "The worked example showed a ₹50,000/month lifestyle today requiring roughly ₹2,87,175/month 30 years later at 6% inflation, purely to maintain the same purchasing power — not because the lifestyle itself changed."
+    },
+    {
+      "question": "Using a 4% safe withdrawal rate rule of thumb, roughly how large a corpus is needed relative to the first year's annual expense in retirement?",
+      "options": [
+        "5 times",
+        "10 times",
+        "25 times",
+        "50 times"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 4% annual withdrawal rate is mathematically equivalent to needing about 25 times the first year's annual expense as the starting corpus (since 1 ÷ 0.04 = 25)."
+    },
+    {
+      "question": "Why does sequence-of-returns risk concentrate specifically in the decumulation (withdrawal) phase rather than the accumulation phase?",
+      "options": [
+        "It affects both phases identically",
+        "During accumulation, a bad market year means buying more units cheaply (working in your favor); during decumulation, a bad year means selling units at a depressed price to fund withdrawals, permanently shrinking the remaining base",
+        "Sequence-of-returns risk only applies to bonds",
+        "It only matters if you retire before age 60"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rupee-cost averaging works in an accumulator's favor during a downturn (buying more units cheaply) but works against a retiree drawing down the same portfolio (forced to sell units at depressed prices), which is why decumulation-phase downturns are structurally more damaging."
+    },
+    {
+      "question": "What does this app's Financial Planner screen do, per this lesson?",
+      "options": [
+        "Guarantees a specific retirement outcome",
+        "Automates the same corpus-sizing and required-SIP math this lesson worked through by hand, letting different assumptions be tested quickly",
+        "Only works for users who have already retired",
+        "Replaces the need for any diversification"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Financial Planner screen runs the same accumulation math (inflating a target, sizing a corpus, solving for required SIP) automatically, removing the friction of manually recalculating every time an assumption changes."
+    },
+    {
+      "question": "In the worked example, why does the lesson emphasize that every number in the corpus calculation is 'a deliberate assumption, not a promise'?",
+      "options": [
+        "Because the math itself might be wrong",
+        "Because a different inflation rate, withdrawal rate, or expected return each meaningfully change the required monthly saving figure, so the value is in understanding sensitivity, not landing on one fixed correct number",
+        "Because retirement planning is not worth doing",
+        "Because the app does not allow changing assumptions"
+      ],
+      "correctIndex": 1,
+      "explanation": "The lesson explicitly frames the exercise as showing how sensitive the required monthly figure is to each assumption, which is exactly why revisiting the plan periodically — rather than treating one calculation as final — matters."
+    }
+  ]
+}

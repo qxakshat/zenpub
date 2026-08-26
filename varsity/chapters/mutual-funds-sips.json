@@ -1,0 +1,60 @@
+{
+  "content": "# Varsity by Zfolio: Investment Vehicles - Mutual Funds & SIPs\n\n**Duration:** 9 minutes | **Level:** Beginner\n\n## What Is a Mutual Fund?\n\nA mutual fund pools money from many investors and uses it to buy a basket of securities — stocks, bonds, or a mix — on their collective behalf, managed by a professional fund manager (or, for an index fund, run mechanically against a benchmark instead). You never own the underlying stocks directly; you own **units** of the fund itself, and the fund owns the stocks.\n\nEvery fund publishes a **Net Asset Value (NAV)** — the price of one unit — once a day, after markets close:\n\n> NAV = (Total value of everything the fund holds − what it owes) ÷ Number of units outstanding\n\n**Worked example:** A fund holding ₹500 crore in assets, with ₹5 crore units outstanding, has an NAV of ₹100. Invest ₹10,000 at that NAV and you receive 100 units. The next day, if the fund's holdings rise 1%, the NAV moves to roughly ₹101, and your 100 units are now worth about ₹10,100 — you never traded anything yourself; the fund's manager did, and the NAV reflects it automatically.\n\n**AUM (Assets Under Management)** is simply the total size of the fund — everyone's money combined. A larger AUM doesn't make a fund better or worse on its own, but it does affect how easily the fund can trade in and out of smaller, less liquid stocks without moving prices against itself.\n\n---\n\n## Direct vs. Regular Plans: The Same Fund, Two Price Tags\n\nThis is the single most consequential thing to understand before investing in any Indian mutual fund, and it surprises a lot of first-time investors: **the exact same fund, with the exact same portfolio and the exact same manager, is sold in India at two different prices.**\n\n- **Regular Plan** — bought through a distributor, bank, or advisor, who earns an ongoing trail commission baked into the fund's expenses.\n- **Direct Plan** — bought directly from the fund house (or via a direct-plan platform), skipping the distributor entirely.\n\nThe difference shows up as a lower **expense ratio** (also called TER — Total Expense Ratio, the fund's annual running cost as a % of your investment) on the Direct plan — commonly around 0.5–1 percentage point lower than the same fund's Regular plan for an actively managed equity fund. That sounds small. Compounded over decades, on a large enough amount, it isn't.\n\n**Worked example:** A ₹10,000 monthly SIP for 20 years, assuming the same underlying 12% gross annual return either way, but a Direct plan running at 1.0% expenses (11% net) against a Regular plan running at 1.8% expenses (10.2% net):\n\n| Plan | Net annual return | Corpus after 20 years |\n|---|---|---|\n| Direct | 11.0% | **₹81,56,072** |\n| Regular | 10.2% | **₹74,13,772** |\n\nSame fund, same manager, same underlying stocks — a **₹7,42,301** gap (about 9% of the Direct plan's final corpus) on ₹24,00,000 of total contributions, purely from which plan you bought. This is the exact same fee-drag mechanism the **What are Index Funds?** lesson demonstrates for the difference between a cheap index fund and an expensive active one — here it's the *same* fund, at two different prices, rather than two different funds.\n\n---\n\n## What Is a SIP?\n\nA **Systematic Investment Plan (SIP)** is simply a standing instruction to invest a fixed amount into a fund on a fixed schedule — usually monthly — rather than investing a lump sum all at once. It's the single most common way Indian retail investors actually build a portfolio, and for a specific mechanical reason it tends to work in an investor's favor: **rupee-cost averaging.**\n\nBecause a fixed rupee amount buys *more* units when the NAV is low and *fewer* units when the NAV is high, a SIP's average purchase cost per unit ends up lower than the simple average of the NAV over the same period — without requiring any market-timing skill at all.\n\n**Worked example:** A ₹5,000 monthly SIP over six months, into a fund whose NAV dips before recovering:\n\n| Month | NAV | Units bought (₹5,000 ÷ NAV) |\n|---|---|---|\n| 1 | ₹100 | 50.00 |\n| 2 | ₹90 | 55.56 |\n| 3 | ₹80 | 62.50 |\n| 4 | ₹85 | 58.82 |\n| 5 | ₹95 | 52.63 |\n| 6 | ₹110 | 45.45 |\n| **Total** | | **324.97 units** |\n\nTotal invested: ₹30,000. Total units: 324.97. **Average cost per unit: ₹92.32.** The simple average of the six NAVs above is ₹93.33 — the SIP's actual average cost came out *lower* than the simple average, because more units were picked up during the ₹80–90 dip than during the ₹110 peak. Rupee-cost averaging doesn't guarantee a profit or protect against a fund that keeps falling — it only ever compares favorably to investing the same total amount at a single, unpredictable point in time.\n\n---\n\n## Where Index Funds Fit In\n\nEverything above applies to mutual funds generally — but funds split into two broad management styles, covered properly in the next module's **What are Index Funds?** lesson: an **actively managed fund**, where a manager picks holdings trying to beat a benchmark, and an **index fund**, which mechanically holds a benchmark's constituents in its exact weights and makes no such attempt. Index funds are simply a specific *kind* of mutual fund — everything covered here (units, NAV, Direct vs. Regular, SIPs) applies to them exactly as it does to an active fund; what differs is only how the fund decides what to hold.\n\n---\n\n## Choosing Between Them\n\nNone of this is a recommendation to buy any specific fund — that decision depends on goals, risk tolerance, and time horizon covered elsewhere in this course. What's worth taking forward mechanically is: check whether a fund you're considering is offered Direct (it almost always is, for anything bought in the last decade), understand that a SIP is a discipline as much as a product, and remember that \"which fund\" and \"which plan of that fund\" are two separate decisions — getting the first right and the second wrong still leaves real, avoidable money on the table.\n\n---\n\n## Key Terms\n\n| Term | Meaning |\n|---|---|\n| **NAV (Net Asset Value)** | The price of one unit of a mutual fund, published once daily |\n| **AUM (Assets Under Management)** | The total size of a fund — all investors' money combined |\n| **Expense Ratio (TER)** | A fund's annual running cost, charged as a % of your investment |\n| **Direct Plan** | Bought straight from the fund house, no distributor commission, lower expense ratio |\n| **Regular Plan** | Bought through a distributor/advisor, who earns an ongoing trail commission, higher expense ratio |\n| **SIP (Systematic Investment Plan)** | A fixed amount invested into a fund on a fixed schedule, usually monthly |\n| **Rupee-Cost Averaging** | The effect of a fixed SIP amount buying more units when NAV is low, fewer when it's high, lowering the average cost per unit |\n\n---\n\n## Takeaway\n\n✅ A mutual fund pools investors' money into a basket of securities; you own units, priced daily via NAV, not the underlying holdings directly.\n✅ The same fund is sold as a Direct plan (lower expense ratio) and a Regular plan (higher, due to distributor commission) — over 20 years on a ₹10,000 monthly SIP, that gap alone was worth over ₹7.4 lakh in the worked example.\n✅ A SIP is a fixed amount invested on a fixed schedule; rupee-cost averaging means its average purchase cost tends to land below the simple average NAV over the same period, with no market-timing required.\n✅ Index funds are a specific kind of mutual fund, not a separate category — everything here applies to them too.\n✅ \"Which fund\" and \"which plan of that fund\" are two separate decisions worth getting right independently.\n\n**Next lesson:** \"Bonds & Fixed Income\" — what the \"debt\" side of a portfolio actually is, mechanically, beyond just \"the safe bucket.\"\n",
+  "quiz": [
+    {
+      "question": "A mutual fund's NAV is ₹100 per unit. If you invest ₹15,000, how many units do you receive?",
+      "options": [
+        "100 units",
+        "150 units",
+        "1,500 units",
+        "15 units"
+      ],
+      "correctIndex": 1,
+      "explanation": "Units received = amount invested ÷ NAV = ₹15,000 ÷ ₹100 = 150 units."
+    },
+    {
+      "question": "What is the main structural difference between a fund's Direct plan and its Regular plan?",
+      "options": [
+        "They hold completely different stocks",
+        "The Direct plan is riskier",
+        "The Direct plan skips distributor commission, giving it a lower expense ratio than the Regular plan",
+        "The Regular plan is only for institutional investors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both plans hold the identical portfolio, managed by the same manager. The only difference is that Regular plans pay an ongoing distributor commission, baked into a higher expense ratio, while Direct plans skip it."
+    },
+    {
+      "question": "In the worked 20-year SIP example, why did the Direct plan end with a meaningfully larger corpus than the Regular plan, despite an identical 12% gross return?",
+      "options": [
+        "The Direct plan invested more money each month",
+        "The Direct plan's lower expense ratio meant a higher net return compounded over 20 years",
+        "The Regular plan's NAV was lower",
+        "The Direct plan was an index fund and the Regular plan was not"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both plans assumed the same 12% gross return; the expense ratio difference (1.0% vs 1.8%) meant different net returns (11% vs 10.2%), and that gap compounded over 20 years into a substantial difference in final corpus."
+    },
+    {
+      "question": "In the six-month SIP worked example, why did the average cost per unit (₹92.32) come out lower than the simple average of the six NAVs (₹93.33)?",
+      "options": [
+        "The fund manager gave a discount",
+        "The fixed rupee amount bought more units during the lower-NAV months and fewer during the higher-NAV months",
+        "SIP investments are never taxed",
+        "The NAV was rounded incorrectly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rupee-cost averaging: a fixed ₹5,000 buys more units when NAV is low (e.g. 62.50 units at NAV ₹80) and fewer when NAV is high (45.45 units at NAV ₹110), pulling the average cost per unit below the simple average of the NAV prices."
+    },
+    {
+      "question": "How do index funds relate to mutual funds, per this lesson?",
+      "options": [
+        "Index funds are a completely separate product from mutual funds",
+        "Index funds are a specific kind of mutual fund — one that mechanically tracks a benchmark instead of being actively managed",
+        "Index funds don't have an NAV",
+        "Index funds are only available as Regular plans"
+      ],
+      "correctIndex": 1,
+      "explanation": "Index funds are mutual funds that mechanically hold a benchmark's constituents rather than having a manager pick holdings — everything about units, NAV, Direct vs Regular, and SIPs applies to them exactly as it does to actively managed funds."
+    }
+  ]
+}
