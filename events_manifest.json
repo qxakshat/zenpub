@@ -103,7 +103,7 @@
     "ZYDUSLIFE"
   ],
   "count": 100,
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "schema": {
     "path": "stock/events/events.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
