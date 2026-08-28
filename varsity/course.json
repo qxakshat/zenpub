@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-28",
   "modules": [
     {
       "id": "0",
@@ -308,6 +308,43 @@
           "duration": "10 min",
           "slug": "market-cycles",
           "file": "market-cycles.json",
+          "hasQuiz": true
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "AI in Portfolio Management",
+      "icon": "brain",
+      "subtitle": "How machine learning, LLMs and robo-advisors are reshaping investing — and where the research still falls short",
+      "slug": "ai-in-portfolio-management",
+      "chapters": [
+        {
+          "name": "What Is AI in Investing?",
+          "duration": "9 min",
+          "slug": "what-is-ai-in-investing",
+          "file": "what-is-ai-in-investing.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "Machine Learning & Reinforcement Learning in Portfolio Optimization",
+          "duration": "13 min",
+          "slug": "ml-reinforcement-learning-portfolio-optimization",
+          "file": "ml-reinforcement-learning-portfolio-optimization.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "LLMs, NLP & Sentiment Analysis in Stock Research",
+          "duration": "12 min",
+          "slug": "llms-nlp-sentiment-analysis-stock-research",
+          "file": "llms-nlp-sentiment-analysis-stock-research.json",
+          "hasQuiz": true
+        },
+        {
+          "name": "AI's Limits: Overfitting, Black Boxes & Regulation",
+          "duration": "11 min",
+          "slug": "ai-limits-overfitting-black-boxes-regulation",
+          "file": "ai-limits-overfitting-black-boxes-regulation.json",
           "hasQuiz": true
         }
       ]
