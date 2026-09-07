@@ -145,6 +145,7 @@
     "DMART",
     "DOMS",
     "DRREDDY",
+    "DUMMYHEG",
     "ECLERX",
     "EICHERMOT",
     "EIDPARRY",
@@ -502,8 +503,8 @@
     "ZYDUSLIFE",
     "ZYDUSWELL"
   ],
-  "count": 500,
-  "lastUpdated": "2026-09-04",
+  "count": 501,
+  "lastUpdated": "2026-09-07",
   "schema": {
     "dailyPath": "stock/prices/<SYMBOL>/daily.json.gz",
     "historyPath": "stock/prices/<SYMBOL>/history.json.gz",
