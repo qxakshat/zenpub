@@ -4,11 +4,15 @@ Static artifacts for the public marketing site (https://zfolio.co.in), published
 here so the site's browsers fetch them from jsdelivr's GitHub CDN instead of
 from the zenserve VM.
 
-zenserve is a single free-tier GCE instance. Every image on the marketing page
-used to be served by that VM off `static/site/img/` via the `/img` mount, so a
-single page view cost it one request per screenshot, logo and broker mark — by
-far the noisiest thing in its access log, and all of it for bytes that change
-maybe twice a year. Nothing here is dynamic, so none of it belongs on the API.
+zenserve is a single free-tier GCE instance. Every image the marketing pages
+reference used to be served by that VM off `static/site/img/` via the `/img`
+mount, so a page view cost it one request for the logo plus one per broker mark
+— the noisiest thing in its access log, for bytes that change about twice a
+year. Nothing here is dynamic, so none of it belongs on the API.
+
+The six `*.webp` app screenshots are mirrored here too, but note that no page
+currently references them — they are carried along so this directory is a
+complete copy of the site's image set, not because they were costing requests.
 
 Served as:
 
