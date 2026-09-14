@@ -28,3 +28,27 @@ The originals stay in zenserve's `static/site/img/` and stay mounted at `/img`:
 og:image URLs on that domain are already indexed by crawlers and embedded in
 previously-shared links, so that path has to keep answering. It just isn't what
 the pages themselves reference any more.
+
+## img/app/
+
+The image set the mobile app (zenfolio) uses at runtime: the three broker marks
+on the connect/login screens plus the Google sign-in mark. These used to be
+bundled into the APK/IPA under `assets/imgs/`; the app now fetches them from
+here and keeps a local on-device copy (see the app's
+`src/utils/remoteAssetService.js`).
+
+It is a separate namespace from `img/brokers/` on purpose, even though
+`groww.png` and `paytm-money.png` are currently byte-identical to their
+copies there. The site and the app already disagree — the app's `zerodha.png`
+is a different crop of the mark from the site's — and giving each surface its
+own set means restyling one cannot silently change the other. The cost is that
+a mark you want changed everywhere has to be updated in both places.
+
+Note: `app/google.png` is 840x859 and ~270KB, and the app renders it at 20x20.
+It is published here as-is (same bytes the app shipped before), but re-encoding
+it at ~64px would cut it to a couple of KB and is worth doing.
+
+The app's launcher icon and splash (`assets/favicon.png`, `assets/splash-icon.png`
+in zenfolio) are deliberately NOT here. Those are read by the native build at
+compile time to produce the launcher icon, adaptive icon and splash screen —
+they have to be files in the app bundle and cannot be fetched at runtime.
