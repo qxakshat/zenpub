@@ -516,6 +516,6 @@
       "recordDate": "ISO date or null (corporate actions only)",
       "description": "string or null (board meetings only)"
     },
-    "note": "Each symbol's list is trimmed to the last 10 days plus any future-dated events on every publish run; a symbol with nothing in that window still has a key with an empty array. A separate, never-trimmed archive of every event ever seen lives at internal/events_archive/events.jsonl \u2014 not fetched by the app, not part of this schema."
+    "note": "Each symbol's list is trimmed to the last 90 days plus any future-dated events on every publish run; a symbol with nothing in that window still has a key with an empty array. A separate, never-trimmed archive of every event ever seen lives at internal/events_archive/events.jsonl \u2014 not fetched by the app, not part of this schema."
   }
 }
