@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-14",
-  "count": 93,
+  "lastUpdated": "2026-10-15",
+  "count": 92,
   "schema": {
     "path": "bonds/opportunities.json",
     "encoding": "plain JSON, one combined file (fetch once client-side)",
