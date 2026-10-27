@@ -221,7 +221,7 @@
     "ICICIAMC",
     "ICICIBANK",
     "ICICIGI",
-    "ICICIPRULI",
+    "ICICILIFE",
     "IDBI",
     "IDEA",
     "IDFCFIRSTB",
@@ -504,7 +504,7 @@
     "ZYDUSWELL"
   ],
   "count": 501,
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "schema": {
     "path": "stock/events/events.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
