@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-14T19:05:12Z",
-  "count": 587,
+  "lastUpdated": "2026-11-14T20:05:14Z",
+  "count": 584,
   "schema": {
     "path": "stock/news/news.json",
     "encoding": "plain JSON, one combined file for every source (fetch once client-side, filter by holding symbol)",
