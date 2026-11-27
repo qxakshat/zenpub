@@ -145,7 +145,6 @@
     "DMART",
     "DOMS",
     "DRREDDY",
-    "DUMMYHEG",
     "ECLERX",
     "EICHERMOT",
     "EIDPARRY",
@@ -204,6 +203,7 @@
     "HDFCBANK",
     "HDFCLIFE",
     "HEGAM",
+    "HEGRAPHITE",
     "HEROMOTOCO",
     "HEXT",
     "HFCL",
@@ -504,7 +504,7 @@
     "ZYDUSWELL"
   ],
   "count": 501,
-  "lastUpdated": "2026-11-26",
+  "lastUpdated": "2026-11-27",
   "schema": {
     "path": "stock/events/events.json",
     "encoding": "plain JSON, one combined file for every symbol (fetch once client-side, look up by symbol)",
